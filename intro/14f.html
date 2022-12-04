@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="padding-bottom: 3000px;">
+    <div class="container">
+        <div class="left-sidebar">
+            <img src="cat.jpg" alt="" class="img1">
+            <img src="cat2.jpg" alt="" class="img2">
+            <img src="dog.jpg" alt="" class="img3">
+        </div>
+        <div class="right-sidebar">
+            <div class="info">
+                <p class="p1">INFO</p>
+                <p class="p2">&#43;</p>
+            </div>
+            <div class="content">
+                <p class="p3">#new-videos</p>
+                <p class="p3">#update</p>
+                <p class="p3">#feq</p>
+            </div>
+        </div>
+    </div>
+
+    <style>
+       
+        div{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            background-color: lightblue;
+            width: 300px;
+            display: flex;
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+
+        }
+        .left-sidebar{
+            width: 60px;
+            background-color:rgb(40,43,48);
+            padding-left: 8px;
+            padding-top: 16px;
+            
+           
+
+        }
+        .right-sidebar{
+            background-color: rgb(66,69,73);
+            flex: 1;
+          
+        }
+        .info{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            padding-right: 10px;
+            padding-left: 14px;
+            font-size: 14px;
+            font-weight: bold;
+            align-items: center;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-bottom: 5px;
+
+        }
+        .content{
+            margin-left: 14px;
+            color: grey;
+           
+        }
+        
+        .p2{
+            color: grey;
+            padding-right: 25px;
+            margin: 0;
+            font-size: 25px;
+        }
+        .p3{
+            margin-top: 0;
+        }
+        
+    </style>
+</body>
+</html>

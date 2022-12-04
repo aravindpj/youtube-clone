@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+        }
+        .col1{
+            background-color: lightblue; width: 200px;
+        }
+        .col2{
+            background-color: lightpink;width: 72px;
+           
+        }
+        .container2{
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+        }
+        .item1{
+            width: 50px;
+            background-color: lightblue;
+        }
+        .item2{
+            flex: 1;
+            background-color: lightpink;
+        }
+        .item3{
+            width:75px;
+            background-color: lightblue;
+        }
+        .container3{
+            display: flex;
+            flex-direction: row;
+            margin-top: 30px;
+             justify-content: space-between;
+        }
+        .item{
+            background-color: lightpink;
+            width: 50px;
+        }
+        .container4{
+           display: flex;
+           flex-direction: row;
+           margin-top: 30px;
+           width: 700px;
+           height: 50px;
+           border-width: 1px;
+           border-color:grey ;
+           justify-content: space-between;
+           align-items: center;
+           border-style: solid;
+           border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col1">
+            200px
+        </div>
+        <div class="col2">72px</div>
+    </div>
+
+    <div class="container2">
+        <div class="item1">item1</div>
+        <div class="item2">item2</div>
+        <div class="item3">item3</div>
+    </div>
+
+    <div class="container3">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+    </div>
+
+    <div class="container4">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        
+</body>
+</html>

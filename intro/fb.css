@@ -1,0 +1,70 @@
+.logo{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+.fb{
+    margin-top: 20px;
+}
+.container{
+    width: 380px;
+    margin-left: auto;
+    margin-right:auto;
+    
+    
+}
+input{
+    display: block;
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+}
+.email{
+    margin-bottom: 15px;
+}
+.login-btn{
+    width: 380px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.description{
+    width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+}
+.btn{
+    margin-top: 14px;
+    
+    padding-left: 160px;
+    padding-right: 166px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.row
+{
+    width: 400px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
